@@ -1,0 +1,14 @@
+diff --git a/cmake/DataFrame.pc.in b/cmake/DataFrame.pc.in
+index 97d9fc6..9f451f6 100644
+--- a/cmake/DataFrame.pc.in
++++ b/cmake/DataFrame.pc.in
+@@ -1,7 +1,7 @@
+ prefix=@CMAKE_INSTALL_PREFIX@
+ exec_prefix=${prefix}
+-includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+-libdir=${exec_prefix}/@CMAKE_INSTALL_LIBDIR@
++includedir=@CMAKE_INSTALL_FULL_INCLUDEDIR@
++libdir=@CMAKE_INSTALL_FULL_LIBDIR@
+ 
+ Name: DataFrame
+ Description: C++ DataFrame for statistical, Financial, and ML analysis -- in modern C++ using native types and contiguous memory storage
