@@ -12,8 +12,8 @@
           owner = "hosseinmoein";
           repo = "DataFrame";
           fetchSubmodules = true;
-          rev = "b7216325c80ce1d5dcd0cfeff6971012d3ddab96";
-          sha256 = "sha256-+7jxM1/A5ONcHhuKo4IjxTGazsKCAEIA6COYpAbLksw=";
+          rev = "2d32a0aac78d69992efe56a31443ebd6b1cf2e40";
+          sha256 = "sha256-AKLZ6hbKDQSUi48pguFzWj4FQgCPlP3JQnPgsARx+is=";
         };
         patches = with pkgs ; [
           ./pc.in.patch
